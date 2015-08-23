@@ -1,7 +1,7 @@
 {
   "name": "hubot-scripts-stock",
   "description": "Hubot script that get a stock prices",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Jeremy Brown <jeremy@tenfourty.com>",
   "license": "MIT",
 
