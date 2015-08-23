@@ -1,6 +1,6 @@
 # hubot-scripts-stock
 
-Hubot scripts that get a stock prices
+Hubot script that gets stock quotes
 
 See [`src/scripts-stock.coffee`](src/scripts-stock.coffee) for full documentation.
 

@@ -8,4 +8,11 @@ cache:
   directories:
     - node_modules
 notifications:
-  email: false
+  email: true
+deploy:
+  provider: npm
+  email: jeremy@tenfourty.com
+  api_key:
+    secure: DmZ8yGEri9RpZyvFEXX5f5u1PlKpgVuCvhpQAUuybOYN7Hx6/lUrvGT8enigwV9cdPEuC8/C3twznxMMkY5fmlPMgePTTJwFwyJDOz2Jh5tWE0D+bebfk4f97fX3iK/PGwrIATs5wwokvE12Yjm4huy3b+0AmP97Vm0vRPIHZDHwY8HsSGsndtCWd5hTpDgJBDCDu9utfsw2EPghfQQTrH6AJ6nUfVCGpbIkqbWSau2j8DMEQuuGa89ZuFEdk03xNS6aqR2qAQ4OK+FwoYVC0Wih1YHBRkzcZwwLdZZ7zLNxqiF9Pc8fnZzkZNE42z9ox0GHRiXYFoTRpB4BrG9VaBTYbSzEk+hINP8LAnomxYTtAunFM9354XEslHR79KnFiHKWD05VUJicGUzJw43mHkSmsebabp2bZP/uOzZRNWvlH+tzIUkzjPGH8enMtPDEo9KanySmKG5PmHjxZzC+3Xoe1XKbVvCHuhv8f05SnzLh1x62rc5gGY+G6vxQckirWjAr69WbppyPdDwhCMUdSUcIGZJtsMr9xTpcM6xry3rL9jxafOf/SVcnD4QV91pGHUEgDO1Bowe++C4WqGupBY43/OYY1GeWY0zBvYMr7HEHQlMAvRSMciVrM+17AEb7udb0n54rGyDNB02x4lTTG4yoOpwb1j3qgg7koEbuK90=
+  on:
+    repo: tenfourty/hubot-stock-scripts
