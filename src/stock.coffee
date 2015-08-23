@@ -16,6 +16,7 @@
 #   eliperkins
 #   maddox
 #   johnwyles
+#   jamiew
 #   Jeremy Brown <jeremy@tenfourty.com>
 #
 
@@ -40,6 +41,5 @@ module.exports = (robot) ->
           result = JSON.parse(body.replace(/\/\/ /, ''))
           msg.send ticker.toUpperCase() + ": $"+result[0].l_cur + " (#{result[0].c})" + ' ' + 'http://finance.yahoo.com/q?s=' + ticker
           msg.send "http://chart.finance.yahoo.com/z?s=#{ticker}&t=#{time}&q=l&l=on&z=l&a=v&p=s&lang=en-US&region=US#.png"
-          msg.send result[0].l_cur + "(#{result[0].c})"
         catch
           msg.send "Error fetching stock :( " + err
