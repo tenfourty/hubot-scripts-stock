@@ -8,12 +8,11 @@ describe 'scripts-stock', ->
   beforeEach ->
     @robot =
       respond: sinon.spy()
-      hear: sinon.spy()
 
     require('../src/stock')(@robot)
 
-#  it 'registers a respond listener', ->
-#    expect(@robot.respond).to.have.been.calledWith(/hello/)
-#
-#  it 'registers a hear listener', ->
-#    expect(@robot.hear).to.have.been.calledWith(/orly/)
+  it 'registers a respond listener for stock', ->
+    expect(@robot.respond).to.have.been.calledWith(/stock (\S+)$/i)
+
+  it 'registers a respond listener for stock chart', ->
+    expect(@robot.respond).to.have.been.calledWith(/stock chart\s?@?([A-Za-z0-9.-_]+)\s?(\d+\w+)?/i)
