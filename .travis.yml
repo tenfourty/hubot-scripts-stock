@@ -1,18 +1,18 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "0.10"
-  - "iojs"
+- '0.12'
+- '0.10'
+- iojs
 sudo: false
 cache:
   directories:
-    - node_modules
+  - node_modules
 notifications:
   email: true
 deploy:
   provider: npm
   email: jeremy@tenfourty.com
   api_key:
-    secure: DmZ8yGEri9RpZyvFEXX5f5u1PlKpgVuCvhpQAUuybOYN7Hx6/lUrvGT8enigwV9cdPEuC8/C3twznxMMkY5fmlPMgePTTJwFwyJDOz2Jh5tWE0D+bebfk4f97fX3iK/PGwrIATs5wwokvE12Yjm4huy3b+0AmP97Vm0vRPIHZDHwY8HsSGsndtCWd5hTpDgJBDCDu9utfsw2EPghfQQTrH6AJ6nUfVCGpbIkqbWSau2j8DMEQuuGa89ZuFEdk03xNS6aqR2qAQ4OK+FwoYVC0Wih1YHBRkzcZwwLdZZ7zLNxqiF9Pc8fnZzkZNE42z9ox0GHRiXYFoTRpB4BrG9VaBTYbSzEk+hINP8LAnomxYTtAunFM9354XEslHR79KnFiHKWD05VUJicGUzJw43mHkSmsebabp2bZP/uOzZRNWvlH+tzIUkzjPGH8enMtPDEo9KanySmKG5PmHjxZzC+3Xoe1XKbVvCHuhv8f05SnzLh1x62rc5gGY+G6vxQckirWjAr69WbppyPdDwhCMUdSUcIGZJtsMr9xTpcM6xry3rL9jxafOf/SVcnD4QV91pGHUEgDO1Bowe++C4WqGupBY43/OYY1GeWY0zBvYMr7HEHQlMAvRSMciVrM+17AEb7udb0n54rGyDNB02x4lTTG4yoOpwb1j3qgg7koEbuK90=
+    secure: GYgE4BuE5i3aNVLh4q/wrtj0/Q0xU2t1QY9ag9Q9kg6CxwoMtW0dou0Q8mvqurSvuKU++zas5JjbUbCMhlzIcxaoevtB5JVvcBQ/TvdX+2wXpguEEZ4xi4WhNAbpY0C3tgi67fkfzFTRgLr13fuCiAKCS+XT/F00uOVKHBQCW0S5EFPZbSBKVlz8fvs3TU7rfLth5rLi2J3w2eDr47uLaajqF6JXU1thJmnlMd2e6cWfLkBHRe9g95eFJ/HaxZMJjKlNR/nhxq300H5cPUEt4TnTvRQMkmJZrxcKIbVmo+KrQ5gXpeCAj8PyOe9OYXXo9erkPs+6hP/z6v+vapo5UqJayCEfpD4gHvJQi2mvkhJR3eW9xq0qd0kq998Mjs3sYaV/zweePezxO5jYp7/v/FZB93XMhHqMKsFVhd0A6bxShZKWCnoDtjHs93mVj2geQwlCDlnA0tEr/8mFT7jOY09gzKrN1wU/iA3pDN0KsQ1iAgdg+x6p5khq2IIiiC565ABBNqyvlT5fuiiNo+EcHxt/9MUC7jP2hTJcwwXWiYFfRlNvG0hihcg235ucql23MeWBPoBx2htObAOHqmkTm+mYPWOaHmLuOV2qmFYOzulnmRd40wK02P6K9dFfrY9wERKToms8CW1ljsvHXITO9+4nAgB7hcw/FtPPzX25Mus=
   on:
     repo: tenfourty/hubot-scripts-stock
